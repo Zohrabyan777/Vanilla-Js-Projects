@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  background: yellow;
+  margin: 0;
+}
+.root {
+  margin: 250px auto;
+  height: 250px;
+  width: 250px;
+  background: #fff;
+  box-shadow: 2px 2px 4px black;
+}
+.root span {
+  font-size: 14px;
+  color: green;
+  font-weight: 600;
+}
+.span_score {
+  margin-left: 150px;
+  display: inline-block;
+  margin-top: 30px;
+}
+h2 {
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
+.answer {
+  display: block;
+  margin: 22px auto;
+  text-align: center;
+  border: 2px solid green;
+  padding: 10px 18px;
+  border-radius: 4px;
+}
+#submit {
+  background: green;
+  display: block;
+  margin: 22px auto;
+  text-align: center;
+  padding: 8px 80px;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+#submit:hover {
+  opacity: 1;
+  background: green;
+  transform: all 1s;
+}
